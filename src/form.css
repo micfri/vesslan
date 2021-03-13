@@ -30,6 +30,7 @@
   color: white !important;
   padding-left: 5%;
   width: 200px;
+  border-width: 2px;
 
 }
 
@@ -42,7 +43,7 @@
   color: white !important;
   padding-left: 5%;
   width: 200px;
-
+  border-width: 2px;
 }
 
 .form-button {

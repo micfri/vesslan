@@ -15,13 +15,11 @@ class Intresseanmalan extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: '',
+      firstName: '',
+      lastName: '',
       phone: '',
       email: '',
-      password: '',
-      isLoggedIn: false,
-      credentialsEmail: '',
-      credentialsPassword: ''
+
     };
   }
 
