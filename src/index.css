@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@font-face {
+  font-family: 'ItalianBreakfast';
+  src: local('ItalianBreakfast'), url(./fonts/ItalianBreakfast-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Noteworthy Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Noteworthy Light'), url('./fonts/Noteworthy-Lt.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: min(8vw, 60px);
+  font-weight: 100;
+  color: black;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.bold {
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:focus {
+  outline: 0px !important;
+}
+
+input:focus {
+  outline: 0px !important;
+}
+
+input:selected {
+  background-color: black !important;
+}
+
+input:-internal-autofill-selected, input:-webkit-autofill {
+  appearance: none !important;
+  background-image: none !important;
+}
+
+button:focus {
+  outline: 0px !important;
+}
+
+button {
+  padding: 0px !important;;
+}

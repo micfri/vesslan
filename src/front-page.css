@@ -1,0 +1,32 @@
+.FrontPage {
+  background-image: url('./images/futura-fasad.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FrontPage h1 {
+  margin: 0px;
+}
+
+.FrontPage .nav-item {
+  background-color: var(--accent-green);
+  color: white;
+  font-size: 30px;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  
+}
+
+.FrontPage .nav-row {
+  margin-top: 20%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+

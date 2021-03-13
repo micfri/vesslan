@@ -1,0 +1,23 @@
+{
+    
+    "app-name": "Vesslan 22",
+    "_comment": "Define respective react components in page-component.js",
+    "pages": [
+        { 
+            "id": "husen",
+            "title": "Husen",
+            "key": "1"
+        },
+        { 
+            "id": "intresseanmalan",
+            "title": "Intresseanmälan",
+            "key": "2"
+        },
+        { 
+            "id": "om",
+            "title": "Om Futura Fastigheter",
+            "key": "3"
+
+        }
+    ]
+}
