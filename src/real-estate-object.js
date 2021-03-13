@@ -95,16 +95,16 @@ class RealEstateObject extends Component {
             <h2>Insidan</h2>
             <div className="information-text-container">
               <div className="information-text-entry">
-                <p className="information-text-entry">Area:</p><p>75 kvm</p>
+                <p className="information-text-entry-title">Adress:</p><p>Snapphanestigen 2</p>
               </div>
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Typ:</p> <p>3 rum och kök</p>
+                <p className="information-text-entry-title">Sjö- och grönområde:</p><p>100 m</p>
               </div> 
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Uppvärmning:</p><p>golvvärme och värmepump</p>
+                <p className="information-text-entry-title">Livsmedel:</p><p>200 m</p>
               </div>
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Anslutning:</p><p>öppen fiber</p>
+                <p className="information-text-entry-title">Centralstation:</p><p>400 m</p>
               </div>
             </div>
             <div className="row-image-container">
@@ -115,16 +115,16 @@ class RealEstateObject extends Component {
             <h2>Planlösning</h2>
             <div className="information-text-container">
               <div className="information-text-entry">
-                <p className="information-text-entry">Area:</p><p>75 kvm</p>
+                <p className="information-text-entry-title">Adress:</p><p>Snapphanestigen 2</p>
               </div>
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Typ:</p> <p>3 rum och kök</p>
+                <p className="information-text-entry-title">Sjö- och grönområde:</p><p>100 m</p>
               </div> 
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Uppvärmning:</p><p>Golvvärme och värmepump</p>
+                <p className="information-text-entry-title">Livsmedel:</p><p>200 m</p>
               </div>
               <div className="information-text-entry">
-                <p className="information-text-entry-title">Anslutning:</p><p>Öppen fiber</p>
+                <p className="information-text-entry-title">Centralstation:</p><p>400 m</p>
               </div>
             </div>
             <div className="row-image-container">
