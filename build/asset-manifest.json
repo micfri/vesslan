@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.926861cb.chunk.css",
-    "main.js": "/static/js/main.ca4098e0.chunk.js",
-    "main.js.map": "/static/js/main.ca4098e0.chunk.js.map",
+    "main.css": "/static/css/main.d909d2d8.chunk.css",
+    "main.js": "/static/js/main.57a4eee5.chunk.js",
+    "main.js.map": "/static/js/main.57a4eee5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.155a6a96.js",
     "runtime-main.js.map": "/static/js/runtime-main.155a6a96.js.map",
-    "static/js/2.cd1eb82b.chunk.js": "/static/js/2.cd1eb82b.chunk.js",
-    "static/js/2.cd1eb82b.chunk.js.map": "/static/js/2.cd1eb82b.chunk.js.map",
+    "static/js/2.e1d956ee.chunk.js": "/static/js/2.e1d956ee.chunk.js",
+    "static/js/2.e1d956ee.chunk.js.map": "/static/js/2.e1d956ee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c41caf0cc460e3001f73bcc517821a9.js": "/precache-manifest.6c41caf0cc460e3001f73bcc517821a9.js",
+    "precache-manifest.18dd77f3706a8d409b9700732f119472.js": "/precache-manifest.18dd77f3706a8d409b9700732f119472.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.926861cb.chunk.css.map": "/static/css/main.926861cb.chunk.css.map",
-    "static/js/2.cd1eb82b.chunk.js.LICENSE.txt": "/static/js/2.cd1eb82b.chunk.js.LICENSE.txt",
+    "static/css/main.d909d2d8.chunk.css.map": "/static/css/main.d909d2d8.chunk.css.map",
+    "static/js/2.e1d956ee.chunk.js.LICENSE.txt": "/static/js/2.e1d956ee.chunk.js.LICENSE.txt",
     "static/media/Futura-Logga_Pos.png": "/static/media/Futura-Logga_Pos.a3c8f4f3.png",
     "static/media/ItalianBreakfast-Regular.ttf": "/static/media/ItalianBreakfast-Regular.e49d5d42.ttf",
     "static/media/index.css": "/static/media/Noteworthy-Lt.a254f3ce.woff",
@@ -24,12 +24,15 @@
     "static/media/nolahaga.jpg": "/static/media/nolahaga.90242624.jpg",
     "static/media/phone_black.png": "/static/media/phone_black.10e16ad6.png",
     "static/media/planritning.jpg": "/static/media/planritning.3797e3e6.jpg",
-    "static/media/vardagsrum-sol.png": "/static/media/vardagsrum-sol.653cbc85.png"
+    "static/media/vardagsrum-sol.png": "/static/media/vardagsrum-sol.653cbc85.png",
+    "static/media/vesslan-fasad.png": "/static/media/vesslan-fasad.71ccfbc7.png",
+    "static/media/vesslan-karta.png": "/static/media/vesslan-karta.67e6b8f4.png",
+    "static/media/vesslan-planskiss.png": "/static/media/vesslan-planskiss.4d2cbc07.png"
   },
   "entrypoints": [
     "static/js/runtime-main.155a6a96.js",
-    "static/js/2.cd1eb82b.chunk.js",
-    "static/css/main.926861cb.chunk.css",
-    "static/js/main.ca4098e0.chunk.js"
+    "static/js/2.e1d956ee.chunk.js",
+    "static/css/main.d909d2d8.chunk.css",
+    "static/js/main.57a4eee5.chunk.js"
   ]
 }

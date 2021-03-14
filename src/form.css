@@ -22,28 +22,27 @@
 }
 
 .form-entry-container input {
-  border-radius: 5px;
   height: 30px;
-  background: white !important;
-  border-color: var(--accent-green);
-  border-style: solid;
-  color: white !important;
-  padding-left: 5%;
-  width: 200px;
-  border-width: 2px;
-
 }
 
 .form-entry-container textarea {
-  border-radius: 5px;
   height: 200px;
-  background: white !important;
-  border-color: var(--accent-green);
-  border-style: solid;
-  color: white !important;
-  padding-left: 5%;
-  width: 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-entry-container input, textarea {
+  border-radius: 5px;
+  width: 400px;
   border-width: 2px;
+  color: black;
+  border-color: var(--accent-green);
+  background: white !important;
+  padding: 2%;
+  border-style: solid;
+}
+
+.form-entry-container textarea:focus {
+  border-color: black;
 }
 
 .form-button {

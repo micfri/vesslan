@@ -18,8 +18,8 @@ class Intresseanmalan extends Component {
       firstName: '',
       lastName: '',
       phone: '',
-      email: '',
-
+      customer_email: '',
+      message: ''
     };
   }
 
@@ -40,7 +40,11 @@ class Intresseanmalan extends Component {
 
   async handleSubmit(event){
     event.preventDefault();
-    console.log(process.env.REACT_APP_EMAIL_JS_USER_ID);
+    const templateParams = {
+      customer_email: this.state.email,
+      to_name: this.state.firstName,
+    };
+    console.log(templateParams);
     emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE_ID, process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID, event.target, process.env.REACT_APP_EMAIL_JS_USER_ID)
       .then((result) => {
           console.log(result.text);
@@ -69,7 +73,7 @@ class Intresseanmalan extends Component {
           </label>
           <label className="form-entry-container">
             <div className="form-entry-label">Email</div>
-            <input type='email' name="email" value={this.state.email} onChange={this.handleChange.bind(this)}></input>
+            <input type='email' name="customer_email" value={this.state.email} onChange={this.handleChange.bind(this)}></input>
           </label>
           <label className="form-entry-container">
             <div className="form-entry-label">Telefon</div>
