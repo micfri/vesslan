@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d909d2d8.chunk.css",
-    "main.js": "/static/js/main.57a4eee5.chunk.js",
-    "main.js.map": "/static/js/main.57a4eee5.chunk.js.map",
+    "main.css": "/static/css/main.dd8d677d.chunk.css",
+    "main.js": "/static/js/main.b52166bb.chunk.js",
+    "main.js.map": "/static/js/main.b52166bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.155a6a96.js",
     "runtime-main.js.map": "/static/js/runtime-main.155a6a96.js.map",
     "static/js/2.e1d956ee.chunk.js": "/static/js/2.e1d956ee.chunk.js",
     "static/js/2.e1d956ee.chunk.js.map": "/static/js/2.e1d956ee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.18dd77f3706a8d409b9700732f119472.js": "/precache-manifest.18dd77f3706a8d409b9700732f119472.js",
+    "precache-manifest.a5790e4d20ae5e2a9513eceba50da027.js": "/precache-manifest.a5790e4d20ae5e2a9513eceba50da027.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d909d2d8.chunk.css.map": "/static/css/main.d909d2d8.chunk.css.map",
+    "static/css/main.dd8d677d.chunk.css.map": "/static/css/main.dd8d677d.chunk.css.map",
     "static/js/2.e1d956ee.chunk.js.LICENSE.txt": "/static/js/2.e1d956ee.chunk.js.LICENSE.txt",
     "static/media/Futura-Logga_Pos.png": "/static/media/Futura-Logga_Pos.a3c8f4f3.png",
     "static/media/ItalianBreakfast-Regular.ttf": "/static/media/ItalianBreakfast-Regular.e49d5d42.ttf",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.155a6a96.js",
     "static/js/2.e1d956ee.chunk.js",
-    "static/css/main.d909d2d8.chunk.css",
-    "static/js/main.57a4eee5.chunk.js"
+    "static/css/main.dd8d677d.chunk.css",
+    "static/js/main.b52166bb.chunk.js"
   ]
 }

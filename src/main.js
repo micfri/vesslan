@@ -9,6 +9,8 @@ import Header from './header.js';
 import Footer from './footer.js';
 
 
+
+
 class Main extends Component {
 
   showSettings (event) {
@@ -23,9 +25,21 @@ class Main extends Component {
   }
 
   componentDidMount() {
+    window.onscroll = () => {
+      var header = document.getElementById("myHeader");
+      var headerTop = header.offsetTop;
+      console.log(headerTop);
+      if (window.pageYOffset > headerTop) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    };
 
-    
   }
+
+  
+ 
 
   render() {
     return (
@@ -36,19 +50,19 @@ class Main extends Component {
             <Header />
             
           </div>
-          
+          <div className="rowContainer nav-row" id="myHeader">
+            <NavLink to="/husen" className="nav-item" activeClassName="selected">
+              Husen
+            </NavLink >
+            <NavLink to="/intresseanmalan" className="nav-item" activeClassName="selected">
+              Intressanmälan
+            </NavLink> 
+            <NavLink to="/om" className="nav-item" activeClassName="selected">
+              Om Futura Fastigheter
+            </NavLink>
+          </div>
           <div className="middle-row">
-            <div className="rowContainer nav-row">
-              <NavLink to="/husen" className="nav-item" activeClassName="selected">
-                Husen
-              </NavLink >
-              <NavLink to="/intresseanmalan" className="nav-item" activeClassName="selected">
-                Intressanmälan
-              </NavLink> 
-              <NavLink to="/om" className="nav-item" activeClassName="selected">
-                Om Futura Fastigheter
-              </NavLink>
-            </div>
+            
             <Switch >
               <Route exact path={"/"}>
                 <PageComponent id={""}/>
@@ -82,3 +96,4 @@ const MenuList = ({ list }) => (
     ))}
   </Menu>
 );
+
