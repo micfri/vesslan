@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .form-entry-container {
   display: flex;
-  justify-content: flex-start;
   flex-direction: row;
   padding: 10px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .form-entry-label {
@@ -17,7 +19,7 @@
   text-align: left;
   align-content: center;
   padding-right: 10%;
-  font-size: 20px;
+  font-size: min(4vw, 20px);
 
 }
 
@@ -49,7 +51,7 @@
   margin: 2%;
   font-size: 24px;
   padding: 5px 8px 5px 8px;
-  background-color: #91bf9e;
+  background-color: var(--accent-green);
   color: white;
   width: 200px;
   border-radius: 5px; 

@@ -58,9 +58,10 @@ class Intresseanmalan extends Component {
 
     return (
       <div className="Intresseanmalan page-component">
-        <div className="page-title-container"><h1>Intressanmälan</h1></div>
-        <div>
-          <p> TEXT OM INTRESSEANMALAN</p>
+        <div className="page-title-container"><h1>INTRESSEANMÄLAN</h1></div>
+        <div className="description-text-box">
+          <p>Om du är intresserad av att bo på i våra nybyggda lägenheter på Snapphanestigen 2 så är du hjärligt välkommen att anmäla ditt intresse i formuläret nedan, så kontaktar vi dig vid tillfälle. </p>
+          <p>Har du frågor eller funderingar får du gärna inkludera dem i din anmälan alternativt kontakta oss på info@futurafastigheter.se eller +46 (0) 760 470 444. </p>
         </div>
         <form className="form-container" onSubmit={this.handleSubmit.bind(this)}>
           <label className="form-entry-container">

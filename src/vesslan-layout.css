@@ -5,8 +5,11 @@
 
 
 .description-text-box {
-  margin-top: 5%;
-  font-size: 22px;
+  margin-top: 0%;
+  font-size: min(4vw, 26px);
+  margin: 0% 8% 2% 8%;
+  width: 60%;
+  min-width: 300px;
 }
 
 .align-left {
@@ -21,6 +24,8 @@
   position: relative;
 }
 
+
+
 .content-middle {
   width: 100%;
   background-color:white;
@@ -34,12 +39,13 @@
 }
 
 .nav-item {
-  margin: 2%;
-  font-size: min(4vw, 30px);
+  margin: 1% 2%;
+  font-size: min(4vw, 26px);
   padding: 5px 8px 5px 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 
 }
 
@@ -48,9 +54,12 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  /* position: sticky;
-  top: 0; */
+  position: sticky;
+  top: 0;
+  background-color: var(--accent-green);
+  
 }
+
 
 .sticky {
   position: fixed;
@@ -58,9 +67,10 @@
   width: 100%;
 }
 
+
+
 .selected {
-  background-color: #91bf9e;
-  color: white;
+  text-decoration: underline;
   width: auto;
   border-radius: 5px;
   height: auto;
@@ -68,17 +78,12 @@
 
 .form-container {
   width: 60%;
+  min-width: 300px;
   display: flex;
   align-items: center;
 }
 
-.information-container {
-  width: 50%;
-  min-width: 300px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 
 
 .image-row-container {
@@ -96,19 +101,51 @@
   padding: 5%;
 }
 
+.gallery-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  flex-wrap: wrap; 
+  padding: 5%;
+}
+
 .row-image-container img {
 
-  width: 100%;
+ height: 100%;
+ width: 100%;
 
 }
 
 .row-container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+}
+
+.light {
+  background-color: var(--light-green);
   display: flex;
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+.dark {
+  background-color: var(--accent-green);
+  color: white;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
+
+
 
 .image-container {
   padding: 20px;
@@ -119,18 +156,32 @@
   height: 200px;
 }
 
+.information-container {
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  padding-left: 5%;
+}
+
 .information-text-container {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 5%;
 }
 
 .information-text-entry {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  width: 60%;
+  width: 100%;
+  font-size: min(4vw, 22px);
+  text-align: left;
+  padding: 0 5%;
 }
 
 .information-text-entry-title {
@@ -139,7 +190,15 @@
 
 }
 
-
+.page-component .nav-item {
+  background-color: var(--accent-green);
+  color: white;
+  font-size: 30px;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
 
 .Footer {
   grid-column: span 10;
@@ -147,8 +206,8 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #91bf9e;
-  color: black;
+  background-color: var(--accent-green);
+  color: white;
   padding: 2%;
   /* grid-template-columns: repeat(10, minmax(10px, 1fr));
   grid-auto-flow: column; */
@@ -157,17 +216,25 @@
 
 .Footer p, a {
   margin: 0px;
-  color: var(--accent-blue)
+  color: white;
+  font-size: 20px;
 }
 
 .social-container {
   /* grid-column-start: 3;
   grid-column-end: 6; */
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
 
 }
 
-
+.Gallery {
+  width:100%;
+}
 
 
 .page-component {
@@ -176,7 +243,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 .address-container {
@@ -198,6 +265,11 @@
   padding: 2%;
 }
 
+.footer-logo {
+  height: 120px;
+  width: 300px;
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -210,4 +282,13 @@
   flex-direction: column;
   justify-content: center;
   padding: 30px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+
+.page-title-container {
+  padding-top: 2%;
 }

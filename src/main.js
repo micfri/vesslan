@@ -7,6 +7,7 @@ import { NavLink, Link, Route, Switch } from 'react-router-dom';
 import PageComponent from './page-component.js';
 import Header from './header.js';
 import Footer from './footer.js';
+import $ from 'jquery';
 
 
 
@@ -25,17 +26,7 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    window.onscroll = () => {
-      var header = document.getElementById("myHeader");
-      var headerTop = header.offsetTop;
-      console.log(headerTop);
-      if (window.pageYOffset > headerTop) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    };
-
+    
   }
 
   
@@ -52,13 +43,13 @@ class Main extends Component {
           </div>
           <div className="rowContainer nav-row" id="myHeader">
             <NavLink to="/husen" className="nav-item" activeClassName="selected">
-              Husen
+              PROJEKTET 
             </NavLink >
             <NavLink to="/intresseanmalan" className="nav-item" activeClassName="selected">
-              Intressanmälan
+              INTRESSEANMÄLAN
             </NavLink> 
             <NavLink to="/om" className="nav-item" activeClassName="selected">
-              Om Futura Fastigheter
+              OM FUTURA FASTIGHETER
             </NavLink>
           </div>
           <div className="middle-row">

@@ -4,12 +4,16 @@ import './vesslan-layout.css';
 import Main from './main.js';
 import resources from './resources.json';
 import { NavLink, Link, Route, Switch } from 'react-router-dom';
+import logo from './images/logos/futura-logo-right.svg';
 
 
   
 function FrontPage() {
   return (
     <div className="FrontPage">
+      <div className="rowContainer">
+        <img className="header-logo" src={logo} alt="Logo" />
+      </div>
       <div className="rowContainer nav-row">
         <NavLink to="/husen" className="nav-item" activeClassName="selected">
           Husen

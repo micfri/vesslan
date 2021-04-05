@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 import './slideshow.css';
-import logo from './images/Futura-Logga_Pos.png';
+import Logo from './images/logos/futura-logo-under.svg';
+import FuturaLogo from './logo.js';
 import nolahaga from './images/nolahaga.jpg';
-import headerPicture from './images/fasad-dag.png';
+import headerPicture from './images/header-picture.png';
 
 
 class Header extends Component {  
@@ -14,7 +15,10 @@ class Header extends Component {
       <div className="Header">
         <img className="header-picture" src={headerPicture} alt="sodergardslangan_outside" />
         <div className="logo-container">
-          <img className="header-logo" src={logo} alt="Logo" />
+          {/* <img className="header-logo" src={logo} alt="Logo" /> */}
+          <FuturaLogo/>
+
+          
         </div>
       </div>
     )
